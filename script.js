@@ -1,4 +1,4 @@
-var catpics = ["cat.png","cat1.png","cat2.png","cat3.png"];
+var catpics = ["cat.png","cat1.png","cat2.png","cat4.png"];
 var randompic = 0;
 
 function openBox() {
