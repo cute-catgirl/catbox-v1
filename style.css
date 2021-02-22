@@ -11,9 +11,11 @@ body {
   justify-content: center;  /* new */
 }
 
+img {
+  transition: 0.1s;
+}
 img:hover {
   transform: scale(1.25,1.25);
-  transition: 0.1s;
 }
 
 body {
