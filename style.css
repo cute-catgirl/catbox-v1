@@ -3,17 +3,22 @@ body {
 }
 
 .container {
-  width: 90%;
-  height: 90vh;
-
-  display: flex; /* new */
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  display: grid; /* new */
   align-items: center;  /* new */
   justify-content: center;  /* new */
 }
 
-.container:hover {
+img {
+  width: 80%;
+  height: 80%;
+}
+
+img:hover {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
 
 body {
