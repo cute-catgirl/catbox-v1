@@ -13,7 +13,7 @@ body {
 
 img:hover {
   transform: scale(1.25,1.25);
-  transition: font-size 0.1s;
+  transition: 0.1s;
 }
 
 body {
