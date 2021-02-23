@@ -6,6 +6,7 @@ function openBox() {
   document.getElementById('catbox').src=catpics[randompic];
   document.getElementById('catbox').setAttribute('onclick','');
   confetti.start();
+  document.getElementById('bodyID').style.animation="backgroundAnim 5s linear 2s infinite normal";
 }
 
 function closeBox() {

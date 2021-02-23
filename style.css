@@ -1,7 +1,3 @@
-body {
-  background-color: #110c6e;
-}
-
 .container {
   width: 100%;
   height: 100vh;
@@ -21,4 +17,14 @@ img:hover {
 body {
   overflow-y: hidden; /* Hide vertical scrollbar */
   overflow-x: hidden; /* Hide horizontal scrollbar */
+  background-color: red;
+}
+
+@keyframes backgroundAnim {
+  0%   {background-color: red;}
+  20%  {background-color: yellow;}
+  40% {background-color: green;}
+  60% {background-color: blue;}
+  80% {background-color: purple;}
+  100%   {background-color: red;}
 }
