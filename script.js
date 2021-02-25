@@ -18,3 +18,8 @@ function playSound() {
   var audio = document.getElementById("meowSound");
   audio.play();
 }
+
+function dupuisify() {
+  catpics = ["dupuis.png","betterdupuis.png"];
+  closeBox();
+}
