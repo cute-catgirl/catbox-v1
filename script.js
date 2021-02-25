@@ -1,5 +1,7 @@
 var catpics = ["cat.png","cat1.png","cat2.png","cat3.png"];
+var sounds = [];
 var randompic = 0;
+var randomsound = 0;
 
 function openBox() {
   randompic = Math.floor(Math.random() * catpics.length);
@@ -15,8 +17,10 @@ function closeBox() {
 }
 
 function playSound() {
-  var audio = document.getElementById("meowSound");
-  audio.play();
+  sounds = [document.getElementById("meowSound"),document.getElementById("meowSound2"),document.getElementById("meowSound3")];
+  randomsound = Math.floor(Math.random() * sounds.length);
+  console.log(sounds[randomsound]);
+  sounds[randomsound].play();
 }
 
 function dupuisify() {
