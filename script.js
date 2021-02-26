@@ -19,7 +19,6 @@ function closeBox() {
 function playSound() {
   sounds = [document.getElementById("meowSound"),document.getElementById("meowSound2"),document.getElementById("meowSound3")];
   randomsound = Math.floor(Math.random() * sounds.length);
-  console.log(sounds[randomsound]);
   sounds[randomsound].play();
 }
 
