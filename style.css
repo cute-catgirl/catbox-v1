@@ -9,6 +9,7 @@
 
 img {
   transition: 0.1s;
+  object-fit: cover;
 }
 img:hover {
   transform: scale(1.25,1.25);
@@ -27,4 +28,12 @@ body {
   60% {background-color: blue;}
   80% {background-color: purple;}
   100%   {background-color: red;}
+}
+
+#creditText {
+  position: absolute;
+  bottom: 6px;
+  left: 16px;
+  font-size: 14px;
+  font-family: sans-serif;
 }
