@@ -1,0 +1,22 @@
+{
+  "name": "catbox",
+  "version": "1.0.0",
+  "description": "Meow!!",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Boxit379/catbox.git"
+  },
+  "author": "Ben",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Boxit379/catbox/issues"
+  },
+  "homepage": "https://github.com/Boxit379/catbox#readme",
+  "dependencies": {
+    "confetti-js": "0.0.18"
+  }
+}
